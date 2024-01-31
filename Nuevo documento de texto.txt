@@ -1,0 +1,26 @@
+ <div class="w-full relative bg-black/80 z-40 h-14">
+        <div class="w-full h-full flex">
+            <div class="pt-1 w-1/4 h-full">
+                <img src="/Img/logoWhite.png" class="object-cover h-full w-full items-center md:w-1/2 lg:w-1/2" alt="">
+            </div>
+            <div class="h-full w-3/4">
+             <ul class="flex w-full h-full justify-end items-center">
+                <li class=" p-7 text-xs text-white flex h-full items-center hover:bg-white/10 hover:transition-all"><a href=""></a>Inicio</li>
+                <li class="p-7 text-xs text-white flex h-full items-center hover:bg-white/10 hover:transition-all"><a href=""></a>Pasajeros</li>
+                <li class="p-7 text-xs text-white flex h-full items-center hover:bg-white/10 hover:transition-all"><a href=""></a>Conductores</li>
+                <li class="p-7 text-xs text-white flex h-full items-center hover:bg-white/10 hover:transition-all"><a href=""></a>Registrarse</li>
+             </ul>
+            </div>
+        </div>
+    </div>
+    <div class="w-full z-10  h-screen absolute top-0">
+        <div class="bg-black/50 w-full h-4/5 absolute flex items-center justify-center">
+            <div class="w-2/3 bg-AzulCyan/70 h-1/4 justify-center flex rounded-2xl">
+                
+            </div>
+        </div>
+        <video class="w-screen h-4/5 object-cover" autoplay muted loop>
+            <source src="/Multimedia/Rainbow_Flare_Nebula_4K_Motion_Background.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+          </video>
+    </div>
