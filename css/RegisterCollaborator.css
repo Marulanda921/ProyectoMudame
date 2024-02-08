@@ -1,0 +1,186 @@
+:root{
+    --colorBlack: #0b0b0d;
+    --colorBlue1: #4487EB;
+    --colorWhite1: #DFF0EA;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    text-decoration: none;
+}
+
+
+
+.comfortaa {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/Img/Captura\ desde\ 2024-01-22\ 12-18-29.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.main .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .content h1{
+    display: flex;
+    text-align: right;
+}
+
+.main .content #contentButtons{
+    width: 20%;
+    height: 25%;
+    border-radius: 20px;
+    background-color: #0b0b0dd0;
+}
+
+#buttonsModal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .content #buttonsModal button{
+    width: 85%;
+    height: 40%;
+    margin: 5%;
+}
+
+.main .content #buttonsModal button:hover{
+    color: #0b0b0d;
+    background-color: #f9fbfed4;
+}
+
+
+
+#login{
+    background-color: #2564eb20;
+    border-radius: 30px;
+}
+
+
+
+#num1{
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+    margin-left: 25%;
+    gap: 10%;
+}
+
+#num1 #content{
+    margin: 5%;
+}
+
+#num1 #names{
+    display: flex;
+    gap: 10%;
+}
+
+#num1 #electronico{
+    width: 97%;
+}
+
+#num1 #dateUser{
+    display: flex;
+    gap: 10%;
+}
+
+
+#contentCheked{
+    margin: 0 10vh 10vh 10vh;
+}
+
+#contentCheked .form-check input{
+    border-color: #0b0b0d;
+}
+
+#datosConductor{
+    display: none;
+}
+
+#datosConductor img{
+    margin: 0 0 0 10%;
+    width: 98%;
+    height: auto;
+    object-fit: cover;
+}
+
+#conductorInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+#datosCarguero{
+    display: none;
+}
+
+#cargueroInputs{
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+    gap: 4vh;
+}
+
+#datosCarguero img{
+    margin: 0 0 0 9%;
+    width: 80%;
+    height: 80%;
+}
+
+#buttonSubmit{
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+}
+
+#buttonSubmit button{
+    border: 0;
+    background-color: #4487EB;
+}
+
+#buttonSubmit button:hover{
+    background-color: #DFF0EA;
+    color: #0b0b0d;
+}
+
+
+@media (max-width: 575px) {
+    #register{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #num1{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "df75",
+      "name": "guillermoluis414@gmail.com",
+      "lastName": "guillermoluis414@gmail.com",
+      "email": "guillermoluis414@gmail.com",
+      "numberTel": "202320242028",
+      "password": "Foronda2004,",
+      "type": "Usuario"
+    },
+    {
+      "id": "c39d",
+      "name": "luis guillermo",
+      "lastName": "Foronda vasquez",
+      "email": "guillermoluis414@gmail.com",
+      "numberTel": "3024617321",
+      "password": "Foronda2004,",
+      "dni": "cedula de ciudadania",
+      "ObjConductor": {
+        "documento": "http://res.cloudinary.com/difzvmcow/image/upload/v1706893462/fdak5yu7brifkjo7n0lr.png",
+        "matricula": "http://res.cloudinary.com/difzvmcow/image/upload/v1706893471/pzhunfcyrtr8diakpnm5.png",
+        "antecedentes": "http://res.cloudinary.com/difzvmcow/image/upload/v1706893479/bfpvxjdoyfmwrzzb6ihw.png",
+        "licensia": "http://res.cloudinary.com/difzvmcow/image/upload/v1706893496/ci0vwmuhn1nzlabuqohg.png"
+      },
+      "type": "Conductor"
+    },
+    {
+      "id": "b1b7",
+      "name": "",
+      "lastName": "",
+      "email": "",
+      "numberTel": "",
+      "password": "",
+      "dni": "cedula de ciudadania",
+      "ObjConductor": {
+        "documento": "http://res.cloudinary.com/difzvmcow/image/upload/v1706895873/dink6ynhgeswyldgklqj.png",
+        "matricula": "",
+        "camion": "",
+        "antecedentes": "",
+        "licensia": ""
+      },
+      "type": "Conductor"
+    },
+    {
+      "id": "d3e9",
+      "name": "Alejandro",
+      "lastName": "Marulanda",
+      "email": "alejandromarulanda702@gmail.com",
+      "numberTel": "3147613241",
+      "password": "klimporti123",
+      "type": "Usuario"
+    },
+    {
+      "id": "8cca",
+      "name": "Alejandro",
+      "lastName": "Marulanda",
+      "email": "alejandromarulanda702@gmail.com",
+      "numberTel": "3145671234",
+      "password": "Comolosabes.",
+      "type": "Usuario"
+    }
+  ]
+}
